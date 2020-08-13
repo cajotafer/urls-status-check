@@ -1,0 +1,30 @@
+{
+"name": "urls-status-check",
+"version": "1.0.0",
+"description": "This is a tool to check the Status of a list of URLs, emulating the process using Puppeteer.",
+"repository": {
+  "type" : "git",
+  "url": "https://github.com/cajotafer/urls-status-check.git"},
+"main": "index.js",
+"bin": "./index.js",
+"scripts": {
+"start": "node index.js"
+},
+"keywords": [
+  "URLs",
+  "status check",
+  "puppeteer",
+  "nodejs",
+  "urls validator"
+],
+"author": {
+  "name": "Carlos Fernandez",
+  "email": "hello@cajotafer.com",
+  "url": "https://cajotafer.com"
+},
+"license": "MIT",
+"dependencies": {
+"chalk": "^4.1.0",
+"puppeteer": "^5.2.1"
+}
+}
